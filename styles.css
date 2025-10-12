@@ -24,7 +24,13 @@ html, body {
     justify-content: center;
     text-align: center;
     font-size: 20px;
+    transition: all 0.3s ease;
+}
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 a {
@@ -42,8 +48,23 @@ p.this {
 }
 
 #pomodoro, #cow, #xxx {
-    height: 100px;
-    width: 180px;
+    height: 90px;
+    width: 200px;
+    font-size: 14px;
+}
+
+.btn {
+    margin: 5px;
+    padding: 10px;
+    background-color:#020416;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #7DF9FF;
 }
 
 header {
@@ -74,4 +95,23 @@ header, footer {
 main {
     background-color: #020416;
     height: 100%;
+}
+
+.box:hover {
+    background-color: #7DF9FF;
+    border-color:#191970;
+    color: #191970;
+}
+
+#signature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    margin: 10px;
+}
+
+#socmed {
+    display: flex;
+    flex-direction: row;
 }
